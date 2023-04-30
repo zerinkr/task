@@ -7,7 +7,7 @@ if [ -z "$BASH_VERSION" ]; then
 fi
 # Instrukcije - bez argumenata
 if [ "$#" -ne 2 ]; then
-  echo "Usage: $0 <logs_directory_path> <search_string>"
+  echo "Usage: $0 <path> <string>"
   exit 1
 fi
 
